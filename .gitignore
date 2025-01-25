@@ -1,0 +1,82 @@
+# Maven target directory (compiled files and builds)
+target/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node & Frontend (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# Java-specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot
+*.db
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+jacoco.exec
+
+# Swagger UI cache
+.springdoc/
+
+# Build tools
+mvnw
+mvnw.cmd
+
+# Dependencies (for safety)
+.pom.xml.tag
+.pom.xml.releaseBackup
+pom.xml.asc
+pom.xml.md5
+pom.xml.sha1
+
+# Git-specific
+.git/
+*.orig
+
+# Coverage reports
+coverage/
+*.lcov
+jacoco/
+
+# Exclude generated config files
+.env
+.env.local
+.env.production
+.env.test
