@@ -188,8 +188,8 @@ target/site/jacoco/index.html
 
 ### **1️ Clone the repository**
 ```bash
-git clone https://github.com/your-repo/price-management.git
-cd price-management
+git clone https://github.com/EmilioSeNa/micro_prices.git
+cd micro_prices
 ```
 
 ### **2️ Build the project**
